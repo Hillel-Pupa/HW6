@@ -1,0 +1,35 @@
+p {
+    font-size: 22px;
+    line-height: 28px;
+    text-indent: 30px;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    font-style: italic;
+    word-spacing: 4px;
+}
+
+.bg-box {
+    background-color: green;
+    height: 800px;
+    background-image: url("img/lamp.png"), url("img/grass.png"), url("img/hedgehog.png"), url("img/пончик.png"), url("img/dom.jpg");
+    background-position: top, bottom, left, right, center;
+    background-repeat: repeat-x, repeat-x, repeat-y, repeat-y, no-repeat;
+    background-size: 65px, 300px, 50px, 50px, 650px;
+}
+
+div[class^='box'] {         
+    width: 100px;         
+    height: 100px;
+} 
+
+.box1 {
+    background: repeating-linear-gradient(180deg, green, green 10px, white 10px, white 20px);
+}
+
+.box2 {
+    background: linear-gradient(to bottom right, black, black 20%, grey 20%, grey 80%, black 80%, black 100%);
+}
+
+.box3 {
+    background: radial-gradient(circle, rgba(255,0,0,1) 20%, rgba(0,0,0,1) 20%);
+}
